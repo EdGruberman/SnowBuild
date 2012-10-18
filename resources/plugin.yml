@@ -1,0 +1,10 @@
+name: SnowBuild
+version: @VERSION@
+description: Increase snow depth by manually adding snow layers
+author: EdGruberman (ed@rjump.com)
+website: http://github.com/EdGruberman/SnowBuild
+main: edgruberman.bukkit.snowbuild.Main
+permissions:
+    snowbuild.place:
+        description: Can layer snow to increase thickness
+        default: true
